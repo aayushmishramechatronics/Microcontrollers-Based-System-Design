@@ -1,5 +1,6 @@
+;example-1 : to familiarize Keil uVision Software with MSP432P401R
     AREA main, CODE, READONLY
-    EXPORT __main ; make main visible to linker
+    EXPORT __main ;make main visible to linker
     ENTRY
 __main
     MOV R0, #0
