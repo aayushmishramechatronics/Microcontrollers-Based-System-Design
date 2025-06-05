@@ -1,3 +1,4 @@
+// example-2 : an Embedded C code to turn on LED P1.0 when P1.1 switch is pressed. Map P1.1 switch as a handler.
 #include "msp.h"
 
 #define LED1 BIT0      // P1.0
